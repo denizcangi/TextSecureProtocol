@@ -3,6 +3,8 @@ Sabanci University CS 411-507 Cryptography Course Term Project
 
 Develop a simplified version of the TextSecure protocol, which provides forward secrecy and deniability, a variant of which is used in different applications such as WhatsApp.
 
+This project was implemented in 3 phases. At each phase we implemented different feature of the TextSecure protocol.
+
 In the project we developed the client side of the TextSecure protocol. 
 First, the client generates a long term private key and public key to use in Station-to-Station protocol to sign messages and verify signatures. In this project, we used Elliptic Curve Digital Signature Algorithm. 
 Second, implemented the Station-to-Station protocol for mutual key and entity authentication.
